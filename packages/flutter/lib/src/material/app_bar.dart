@@ -192,7 +192,7 @@ class AppBar extends StatefulWidget implements PreferredSizeWidget {
     )
     this.textTheme,
     this.primary = true,
-    this.centerTitle,
+    this.centerTitle = true,
     this.excludeHeaderSemantics = false,
     this.titleSpacing,
     this.toolbarOpacity = 1.0,
